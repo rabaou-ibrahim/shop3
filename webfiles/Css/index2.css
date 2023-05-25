@@ -1,0 +1,127 @@
+body {
+    position: 0;
+    height: 100%;
+    ;
+}
+
+header {
+    background-color: rgb(217, 217, 217);
+    padding: 3.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    header .header-btn {
+        background-color: rgb(120, 174, 191);
+        border-radius: 5px;
+        padding: 2%;
+        height: 50%;
+        align-self: center;
+        text-align: center;
+        border: none;
+        font-size: x-large;
+        width: 15%;
+    }
+    header .header-btn:hover {
+        cursor: pointer;
+        background-color: rgba(120, 174, 191, 0.5);
+    }
+    header .header-btn a {
+        color: white;
+        text-decoration: none;
+    }
+    header .header-round-btn {
+        background-color: rgb(120, 174, 191);
+        padding: 4% 3%;
+        border-radius: 50%;
+        border: none;
+        font-size: larger;
+        width: 15%;
+    }
+    header .header-round-btn:hover {
+        cursor: pointer;
+        background-color: rgba(120, 174, 191, 0.5);
+    }
+    header .header-round-btn a {
+        color: white;
+        text-decoration: none;
+    }
+    
+
+h3 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(217, 217, 217);
+    width: 33%;
+    height: 33%;
+    border-radius: 3px;
+    border: 2px solid;
+    margin-bottom: 5%;
+}
+
+form input {
+    margin: 2%;
+    display: flex;
+}
+
+form label {
+    margin: 2%;
+    display: flex;
+}
+
+.label-image {
+    display: flex;
+}
+
+button {
+    margin: 2%;
+    width: 20%;
+}
+
+.display-return {
+    display: flex;
+    align-self: center;
+    font-size: x-large;
+    text-decoration: none;
+    background-color: rgb(255, 112, 112);
+    color: white;
+    cursor: pointer;
+    width: auto;
+}
+
+.display-return a{
+    color: white;
+    text-decoration: none;
+}
+
+.view-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: rgb(217, 217, 217);
+    padding: 3.5%;
+}
+    
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        font-size: x-large;
+    }
